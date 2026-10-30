@@ -1,6 +1,17 @@
 # 🏥 Multiple Disease Prediction System using Machine Learning & Streamlit
 
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
+
 A web application built using **Streamlit** and **Machine Learning (Scikit-Learn)** that predicts whether a patient has a particular disease based on clinical input parameters.
+
+### 🌐 Live Demo
+
+🔗 **[https://multiple-disease-prediction-lkig.onrender.com](https://multiple-disease-prediction-lkig.onrender.com)**
+
+> **Note:** The app is hosted on Render's free tier. It may take ~30-60 seconds to load if it has been idle.
 
 ---
 
@@ -154,5 +165,31 @@ deactivate
 
 ---
 
+## 🌐 Deployment
+
+This application is deployed on **[Render](https://render.com/)**.
+
+To deploy your own instance:
+1. Fork this repository
+2. Create a new **Web Service** on [Render](https://render.com/)
+3. Connect your GitHub repo
+4. Set the following:
+   - **Runtime:** Python
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `streamlit run app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true`
+5. Deploy! 🚀
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
 ## 📄 License & Attribution
 Created for educational and research purposes. Medical decisions should always be consulted with certified medical professionals.
+
+---
+
+### ⭐ If you found this project helpful, give it a star!
