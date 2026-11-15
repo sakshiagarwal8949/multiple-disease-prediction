@@ -9,7 +9,7 @@ A web application built using **Streamlit** and **Machine Learning (Scikit-Learn
 
 ### 🌐 Live Demo
 
-🔗 **[https://multiple-disease-prediction-lkig.onrender.com](https://multiple-disease-prediction-lkig.onrender.com)**
+🔗 **[[https://multiple-disease-prediction-lkig.onrender.com]**
 
 > **Note:** The app is hosted on Render's free tier. It may take ~30-60 seconds to load if it has been idle.
 
